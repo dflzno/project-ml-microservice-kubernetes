@@ -9,10 +9,8 @@ dockerpath=davidcki/project5udacity
 # Step 2
 kubectl create deployment ml-microservice --image=$dockerpath
 
-
 # Step 3:
 kubectl get pods
 
 # Step 4:
 kubectl port-forward deployment/ml-microservice 8000:80
-
